@@ -1,7 +1,7 @@
 {
   "name": "react-native-midtrans-sdk",
   "title": "React Native Midtrans Sdk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Midtrans SDK react native module [UNOFFICIAL]",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herarya/react-native-midtrans-sdk.git",
-    "baseUrl": "https://github.com/herarya/react-native-midtrans-sdk"
+    "url": "git+https://github.com/agilworld/react-native-midtrans-sdk.git",
+    "baseUrl": "https://github.com/agilworld/react-native-midtrans-sdk"
   },
   "keywords": [
     "react-native"
