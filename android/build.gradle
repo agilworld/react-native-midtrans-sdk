@@ -78,7 +78,7 @@ dependencies {
     //implementation 'com.midtrans:uikit:1.21.1' // change the number to the latest version
     
     // For using the Midtrans Sandbox
-    implementation 'com.midtrans:uikit:1.29.3-SANDBOX' // change the number to the latest version
+    implementation 'com.midtrans:uikit:1.25.0-SANDBOX' // change the number to the latest version
 
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules

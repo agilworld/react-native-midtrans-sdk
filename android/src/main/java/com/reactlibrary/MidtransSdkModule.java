@@ -74,8 +74,6 @@ public class MidtransSdkModule extends ReactContextBaseJavaModule {
                     .setMerchantBaseUrl(baseUrl)
                     .enableLog(true)
                     .buildSDK();
-
-
         }
     }
 
