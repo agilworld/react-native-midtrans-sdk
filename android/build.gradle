@@ -58,6 +58,10 @@ android {
 
 repositories {
     // ref: https://www.baeldung.com/maven-local-repository
+     maven {
+        // Android JSC is installed from npm
+        url("$rootDir/../node_modules/jsc-android/dist")
+    }
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
         url "$rootDir/../node_modules/react-native/android"
@@ -79,6 +83,9 @@ dependencies {
     debugImplementation "com.midtrans:uikit:${safeExtGet('uiKitVersion', DEFAULT_UIKIT_SDK_VERSION)}-SANDBOX"
     releaseImplementation "com.midtrans:uikit:${safeExtGet('uiKitVersion', DEFAULT_UIKIT_SDK_VERSION)}"
 
+    implementation "ru.rambler.android:swipe-layout:1.0.14"
+    implementation "me.saket:better-link-movement-method:1.2"
+    implementation "com.github.stfalcon-studio:SmsVerifyCatcher:0.3.1"
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
 }
