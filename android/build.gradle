@@ -14,7 +14,7 @@ def DEFAULT_COMPILE_SDK_VERSION = 33
 def DEFAULT_BUILD_TOOLS_VERSION = '30.0.2'
 def DEFAULT_MIN_SDK_VERSION = 21
 def DEFAULT_TARGET_SDK_VERSION = 33
-def DEFAULT_UIKIT_SDK_VERSION = "1.25.0"
+def DEFAULT_UIKIT_SDK_VERSION = "1.23.0"
 
 def safeExtGet(prop, fallback) {
     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
@@ -70,8 +70,9 @@ repositories {
     maven { url "http://dl.bintray.com/pt-midtrans/maven" }
     maven { url "https://jitpack.io" }
     mavenCentral()
+    jcenter()
     google()
-    //jcenter()
+    // jcenter()
 }
 
 dependencies {
